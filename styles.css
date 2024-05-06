@@ -1,0 +1,138 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background-image: url('carpentrybackground.jpg'); /* Set your blurred background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+#logo-container h1 {
+    font-size: 24px;
+}
+
+nav button  {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    border: 1px solid rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    color: white;
+    padding: 10px ; 
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px ; 
+}
+
+nav button a {
+    text-decoration: none;  
+    color: white ; 
+    font-size: 15px ; 
+}
+
+#logo-container {
+    border: 1px solid rgba(0, 0, 0, 0.5) ; 
+    background-color: rgba(0, 0, 0, 0.5) ; 
+    border-radius: 50px ; 
+    padding: 10px ; 
+    margin: 10px ; 
+}
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.homepage img {
+    max-width: 650px ; 
+    height: auto ; 
+    max-height: 450px ; 
+
+}
+
+.homepage .text {
+    margin-left: 20px;
+    color: #fff; /* Set text color for the hero section */
+    
+}
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);  
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    color: #333;  
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Darken the footer background */
+    color: white;
+    position: fixed ; 
+    bottom: 0 ; 
+    width: 100% ; 
+}
+
+#onas .image-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px; /* Adjust this value to increase or decrease the space between the images */
+}
+
+#onas .image-box {
+    text-align: center;
+}
+
+#onas .image-box img {
+    width: 500px; 
+    height: 360px ; 
+    object-fit: cover;
+}

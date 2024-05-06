@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drewienko - Firma Stolarska</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="logo-container">
+            <h1>Drewienko - firma stolarska</h1>
+        </div>
+        <nav>
+            <button id="onas-button"><a href="#onas">O NAS</a></button>
+            <button id="galeria-button"><a href="#galeria">GALERIA</a></button>
+            <button id="kontakt-button"><a href="#kontakt">KONTAKT</a></button>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="homepage">
+                <img src="obrazek1.jpg" alt="Company Image">
+                <div class="text">
+                    <h2>Twoja firma stolarska</h2>
+                    <p>Zajmujemy się stolarstwem oraz drewnianymi meblami na zamówienie od 2015 roku.</p>
+                </div>
+            </div>
+        </section>
+        <section id="onas">
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="obrazek2.jpg" alt="Image 1">
+                    <p>Text for image 1</p>
+                </div>
+                <div class="image-box">
+                    <img src="obrazek3.jpg" alt="Image 2">
+                    <p>Text for image 2</p>
+                </div>
+                <div class="image-box">
+                    <img src="obrazek4.jpg" alt="Image 3">
+                    <p>Text for image 3</p>
+                </div>
+            </div>
+        </section>
+        <section id="galeria">
+            <!-- Small gallery of pictures -->
+            <!-- Customize this section as needed -->
+        </section>
+         <section id="kontakt">
+            <div class="contact-form">
+                <h2>Skontaktuj się z nami</h2>
+                <form action="send_email.php" method="post">
+                    <input type="text" name="name" placeholder="Imię" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
+                    <textarea name="message" placeholder="Wiadomość" rows="4" required></textarea>
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+        </section> 
+    </main>
+    <footer>
+        <p>Copyright © 2024 Drewienko - Firma Stolarska</p>
+    </footer>
+</body>
+</html>
